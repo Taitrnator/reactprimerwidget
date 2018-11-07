@@ -1,0 +1,30 @@
+.Scene {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.Scene > section {
+    padding: 1rem;
+    position: relative;
+}
+.Scene-Content {
+    top: 85px;
+    margin-top: 100px;
+    right: 70px;
+    width: 285px;
+    text-align: left;
+    opacity: 1;
+}
+.Scene-Content h3 {
+    font-size: 19px;
+}
+.Scene-Content p {
+    font-size: 14px;
+}
+.Scene-Content small {
+    color: #999;
+    font-size: 13px;
+    line-height: 0.8;
+}
